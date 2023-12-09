@@ -16,16 +16,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9.1
-    "version": "3.13.0-alpha.2",
-    "stable": false,
-    "release_url": "https://github.com/actions/python-versions/releases/tag/3.13.0-alpha.2-6966007093",
-    "files": [
-      {
-        "filename": "python-3.13.0-alpha.2-darwin-arm64.tar.gz",
-        "arch": "arm64",
-        "platform": "darwin",
-        "download_url": "https://github.com/actions/python-versions/releases/download/3.13.0-alpha.2-6966007093/python-3.13.0-alpha.2-darwin-arm64.tar.gz"
-      },
       - name: Set timezone
         run: |
           cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
